@@ -89,11 +89,11 @@ def test_new_heuristics_logic():
     flags = compute_quality_flags(df_bad, summary, missing_df)
 
     # Проверка на константную колонку
-    assert flags["has_constant_columns"] is True
+    assert flags["has_constant_columns"]  == True
     assert flags["constant_columns_count"] == 1
 
     # Проверка на дубликаты
-    assert flags["has_full_duplicates"] is True
+    assert flags["has_full_duplicates"]  == True
     assert flags["duplicates_count"] > 0
 
     # Проверка скора
