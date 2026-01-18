@@ -1,0 +1,27 @@
+{
+    "Dummy": {
+        "accuracy": 0.9509,
+        "f1": 0.0,
+        "roc_auc": 0.5
+    },
+    "LogisticRegression": {
+        "accuracy": 0.9627,
+        "f1": 0.4131,
+        "roc_auc": 0.8397
+    },
+    "DecisionTree": {
+        "accuracy": 0.88,
+        "f1": 0.3729,
+        "roc_auc": 0.8254
+    },
+    "RandomForest": {
+        "accuracy": 0.971,
+        "f1": 0.582,
+        "roc_auc": 0.91
+    },
+    "GradientBoosting": {
+        "accuracy": 0.9714,
+        "f1": 0.6775,
+        "roc_auc": 0.8926
+    }
+}

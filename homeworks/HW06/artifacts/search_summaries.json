@@ -1,0 +1,25 @@
+{
+    "DecisionTree": {
+        "best_params": {
+            "max_depth": 5,
+            "min_samples_leaf": 20
+        },
+        "best_cv_score": 0.8169985264786433
+    },
+    "RandomForest": {
+        "best_params": {
+            "max_depth": null,
+            "min_samples_leaf": 2,
+            "n_estimators": 200
+        },
+        "best_cv_score": 0.8947860967023995
+    },
+    "GradientBoosting": {
+        "best_params": {
+            "learning_rate": 0.2,
+            "max_depth": 5,
+            "n_estimators": 200
+        },
+        "best_cv_score": 0.8889411579289919
+    }
+}
